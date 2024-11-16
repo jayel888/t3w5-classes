@@ -1,12 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
 import React, { Component } from 'react'
+import PokemonFetcher from './PokemonFetcher';
 
 // React.Component or Component depending on how we import it
 class App extends React.Component {
   render() {
     return (
       <div className="App">
+        <PokemonFetcher />
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <p>
